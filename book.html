@@ -44,57 +44,50 @@
       </div>
     </nav>
 
-    <div class="container-fluid" >
-      <!-- banner -->
+    <div class="container-fluid" style=" display: flex;justify-content: center;flex-wrap: wrap;width: 100%;margin-bottom: 20px;" >
+
       <div class="row">
-        <div class="col-12">
-          <div class="banner bg-dark d-flex align-items-center justify-content-center my-4">
-            <div class="mask"></div>  
-            <div class="text text-center">
-              <h1 class="text-white ">La <span class="text-info">
-                mejor</span> librería del planeta <span class="text-info">
-                BIT</span></h1>
-            </div>
-          </div>
+        <div class="col-12 col-md-6 text-right">
+          <h2 class="col-12 col-md-6 text-right text-secondary">Titulo</h2>
+          <img class="imag-fluid" style="height: 600px; width:350px" src="./imagen/book.jpg" alt="The Arrivals">
         </div>
-      </div>
 
-      <div class="row">
-        <div class="container">
-          <!-- buscador -->
-          <form>
-            <div class="d-flex">
-                <button class="btn btn-outline-primary">BUSCAR</button>
-                <input type="text" class="form-control" placeholder="¿Qué deseas leer hoy?">
+        <div class="col-12 col-md-6">
+          <div class="detailsBook">
+            <div class="col text-secondary">
+              <p> Lorem Ipsum is simply dummy test of the printing and typesetting industry.
+                Lorem Insum has been the industr's standard dummy test ever since the 1500s,
+                When an aunknowm printer look a galley of type and scrambled it to make a type
+                specimen boo. it has survived not only five centuries, but also the leap into
+                electronic  typesetting, remaining essentially unchanged. It was popularised in the
+                196s with the release of Letraset sheets containing Lorem Ipsum passages, and
+                more recently with desktop publishing like Aldus PageMaker including
+                versions od Lorem Ipsujm.
+              </p>
             </div>
-          </form>
+              
+            <div class="col-12 col-md-6 col-lg-6" style="padding-top: 30%;">
+              <div class="d-flex align-items-end">
+                <div>
+                  <p class="text-info font-weight-bold">valor unitario: $50.000,00</p>
+                  <p class="font-weight-bold";>Cantidad: <input type="text" class="font-weight-bold" style="text-align: right;" name="cantidad" value="1"></p>
+                  
+                  <hr style="width: 100%;text-align: left;margin-left: 0">
 
-          <div class="row">
-            <div class="col-12 col-md-3">
-              Producto 1
+                  <div class="d-flex justify-content-betwen bd-highlight ">
+                    <div>
+                      <p class="text-info h5 font-weight-bold ">Total $50.000,00</p>
+                    </div>
+                    <div>
+                      <button type="button" class="font-weight-bold btn btn-info" (click)="alertContinue(amount, unitValue)">
+                        <i class="bi bi-cart-plus m-r-1">Añadir al carrito</i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-12 col-md-3">
-              Producto 2
-            </div>
-            <div class="col-12 col-md-3">
-              Producto 3
-            </div>
-            <div class="col-12 col-md-3">
-              Producto 4
-            </div>
-            <div class="col-12 col-md-3">
-              Producto 5
-            </div>
-            <div class="col-12 col-md-3">
-              Producto 6
-            </div>
-            <div class="col-12 col-md-3">
-              Producto 7
-            </div>
-            <div class="col-12 col-md-3">
-              Producto 8
-            </div>
-          </div>
+        </div>
         </div>
       </div>
     </div>
